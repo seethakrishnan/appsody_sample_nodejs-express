@@ -1,7 +1,7 @@
 const app = require('express')()
 
 app.get('/', (req, res) => {
-  res.send("Hello from Appsody Testing now latest....!");
+  res.send("Hello from Appsody Testing now latest with docker");
 });
  
 module.exports.app = app;
