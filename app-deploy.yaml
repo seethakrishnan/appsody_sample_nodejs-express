@@ -56,11 +56,11 @@ metadata:
     version: 0.2.10
   creationTimestamp: null
   labels:
-    image.opencontainers.org/title: appsody-sample-nodejs-expresslatest
+    image.opencontainers.org/title: appsody-sample-nodejs-express
     stack.appsody.dev/id: nodejs-express
     stack.appsody.dev/version: 0.2.10
-  name: appsody-sample-nodejs-express
-  namespace: openshift
+  name: appsody_sample_nodejs-express
+  namespace: seethakrishnan-in
 spec:
   applicationImage: image-registry.openshift-image-registry.svc:5000/seethakrishnan-in/appsody_sample_nodejs-express:latest
   createKnativeService: false
@@ -74,7 +74,7 @@ spec:
     periodSeconds: 2
   monitoring:
     labels:
-      k8s-app: appsody-sample-nodejs-expresslatest
+      k8s-app: appsody_sample_nodejs-express
   readinessProbe:
     failureThreshold: 12
     httpGet:
