@@ -62,7 +62,7 @@ metadata:
   name: 
   namespace: seethakrishnan-in
 spec: appsody-sample-nodejs-express
-  applicationImage: image-registry.openshift-image-registry.svc:5000/seethakrishnan-in/appsody-sample-nodejs-express:latest
+  applicationImage: image-registry.openshift-image-registry.svc:5000/seethakrishnan-in/appsody_sample_nodejs-express:latest
   createKnativeService: false
   expose: true
   livenessProbe:
