@@ -62,7 +62,7 @@ metadata:
   name: appsody_sample_nodejs-express
   namespace: seethakrishnan-in
 spec:
-  applicationImage: image-registry.openshift-image-registry.svc:5000/seethakrishnan-in/nodejs-express
+  applicationImage: image-registry.openshift-image-registry.svc:5000/seethakrishnan-in/appsody-sample-nodejs-express:latest
   createKnativeService: false
   expose: true
   livenessProbe:
@@ -74,7 +74,7 @@ spec:
     periodSeconds: 2
   monitoring:
     labels:
-      k8s-app: appsody_sample_nodejs-express
+      k8s-app: appsody-sample-nodejs-express
   readinessProbe:
     failureThreshold: 12
     httpGet:
