@@ -59,10 +59,10 @@ metadata:
     image.opencontainers.org/title: appsody-sample-nodejs-expresslatest
     stack.appsody.dev/id: nodejs-express
     stack.appsody.dev/version: 0.2.10
-  name: appsody-sample-nodejs-expresslatest
-  namespace: seethakrishnan-in
+  name: appsody-sample-nodejs-express
+  namespace: openshift
 spec:
-  applicationImage: image-registry.openshift-image-registry.svc:5000/seethakrishnan-in/appsody_sample_nodejs-express
+  applicationImage: image-registry.openshift-image-registry.svc:5000/seethakrishnan-in/appsody_sample_nodejs-express:latest
   createKnativeService: false
   expose: true
   livenessProbe:
