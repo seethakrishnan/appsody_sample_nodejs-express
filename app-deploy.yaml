@@ -61,7 +61,7 @@ metadata:
     stack.appsody.dev/version: 0.2.10
   name: appsody-sample-nodejs-express
 spec:
-  applicationImage: image-registry.openshift-image-registry.svc:5000/seethakrishnan-in/appsody-sample-nodejs-express:latest
+  applicationImage: image-registry.openshift-image-registry.svc:5000/seethakrishnan-in/appsody_sample_nodejs-express:a55adc92c22ff6305094b720993b831f1d9f02ce
   createKnativeService: false
   expose: true
   livenessProbe:
